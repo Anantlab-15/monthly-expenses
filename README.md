@@ -6,8 +6,6 @@ Student Pocket Money & Monthly Expense Tracker
 ## Domain
 Personal Finance / Daily Productivity
 
----
-
 ## 1. Problem Statement
 
 Students living on a fixed monthly pocket money often struggle to keep track of their small, daily cash spends (such as canteen snacks, bus fare, stationery, and tea). Because these expenses are small and paid in cash, students easily lose count and run out of money before the month ends.
@@ -20,8 +18,6 @@ This project is a **simple, menu-driven terminal tool** that helps a student:
 4. Calculate category-wise totals using a Python dictionary.
 5. Check their remaining balance and see if they are overspending.
 
----
-
 ## 2. Python Concepts Used
 
 * **Functions (`def`):** Modular code where each task has its own function (`set_budget()`, `add_expense()`, `view_all_expenses()`, `category_summary()`, `view_report()`).
@@ -33,8 +29,6 @@ This project is a **simple, menu-driven terminal tool** that helps a student:
   * `while True` loop to keep the interactive menu running.
   * `for` loop to iterate over items in the list and dictionary.
 * **Conditional Statements:** `if-elif-else` to process menu choices and check whether spending exceeds the budget.
-
----
 
 ## 3. Project Requirements
 
@@ -52,8 +46,6 @@ The project uses standard Python concepts and does not require any external Pyth
 
 Therefore, there are **no `pip install` dependencies** required.
 
----
-
 ## 4. Environment Setup
 
 ### Step 1: Install Python
@@ -61,32 +53,20 @@ Therefore, there are **no `pip install` dependencies** required.
 Install Python 3.x on your computer if it is not already installed.
 
 After installation, open a terminal or command prompt and check the installation:
-
-```bash
 python --version
-```
 
 On some systems, including Windows, you may need to use:
-
-```bash
 py --version
-```
 
 Make sure the command displays a Python 3.x version.
 
 ### Step 2: Get the Repository
 
 Clone the repository using Git:
-
-```bash
 git clone <repository-url>
-```
 
 Then move into the project directory:
-
-```bash
 cd <repository-folder>
-```
 
 Alternatively, if the repository has already been downloaded as a ZIP file, extract it and open a terminal inside the project folder.
 
@@ -97,8 +77,6 @@ Make sure the repository contains:
 * `README.md` at the root level
 * The Python source file containing the Student Pocket Money & Monthly Expense Tracker program
 
----
-
 ## 5. Configuration
 
 This project does not require API keys, database credentials, environment variables, or other external configuration based on the current project description.
@@ -106,8 +84,6 @@ This project does not require API keys, database credentials, environment variab
 No `.env` file is required.
 
 The monthly pocket money limit is entered by the user when the program is running.
-
----
 
 ## 6. How to Run the Project
 
@@ -119,15 +95,13 @@ Open a terminal or command prompt in the repository's root directory.
 
 Run the Python source file that contains the project:
 
-```bash
 python <python-file-name>.py
-```
+
 
 On Windows, if `python` is not recognized, use:
 
-```bash
+
 py <python-file-name>.py
-```
 
 Replace `<python-file-name>.py` with the actual Python file name present in the repository.
 
@@ -142,8 +116,6 @@ The program allows the user to:
 3. View all recorded expenses.
 4. View category-wise expense totals.
 5. View the overall report, including the remaining balance and spending status.
-
----
 
 ## 7. How the Project Works
 
@@ -162,15 +134,11 @@ Each expense is represented using a dictionary containing:
 
 Category-wise spending is calculated using another dictionary. The program compares total spending with the monthly pocket money limit to determine the remaining balance and whether spending has exceeded the budget.
 
----
-
 ## 8. Important Note About Data
 
 The project description specifies that the main expense list stores records **in memory**.
 
 Therefore, unless the project source code contains an additional file/database storage mechanism, expense records are not expected to persist automatically after the program is closed.
-
----
 
 ## 9. Example Usage Flow
 
@@ -201,8 +169,6 @@ For example, a student can record expenses such as:
 
 The program then organizes these expenses and calculates the corresponding totals.
 
----
-
 ## 10. Troubleshooting
 
 ### Python is not recognized
@@ -211,15 +177,9 @@ If the terminal says that `python` is not recognized, verify that Python 3.x is 
 
 On Windows, try:
 
-```bash
 py --version
-```
-
 and then:
-
-```bash
 py <python-file-name>.py
-```
 
 ### The program does not start
 
@@ -234,8 +194,6 @@ Make sure that:
 
 The project description specifies that the main `expenses` list stores records in memory. If the source code does not implement file or database storage, previously entered expenses will not be available after the program is closed.
 
----
-
 ## 11. Project Structure
 
 A typical repository structure is:
@@ -249,8 +207,6 @@ project-root/
 
 If additional files are present in the repository, they should be described here according to their actual purpose.
 
----
-
 ## 12. Project Features
 
 * Monthly pocket money/budget setup
@@ -261,8 +217,6 @@ If additional files are present in the repository, they should be described here
 * Remaining balance calculation
 * Overspending check
 * Menu-driven terminal interface
-
----
 
 ## 13. Conclusion
 
