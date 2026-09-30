@@ -95,13 +95,13 @@ Open a terminal or command prompt in the repository's root directory.
 
 Run the Python source file that contains the project:
 
-python <python-file-name>.py
+python < python-file-name >.py
 
 
 On Windows, if `python` is not recognized, use:
 
 
-py <python-file-name>.py
+py < python-file-name >.py
 
 Replace `<python-file-name>.py` with the actual Python file name present in the repository.
 
