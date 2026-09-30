@@ -122,15 +122,7 @@ The program allows the user to:
 The project keeps expense records in a Python list while the program is running.
 
 Each expense is represented using a dictionary containing:
-
-```python
-{
-    "date": date,
-    "category": category,
-    "amount": amount,
-    "note": note
-}
-```
+{"date": date,"category": category,"amount": amount,"note": note}
 
 Category-wise spending is calculated using another dictionary. The program compares total spending with the monthly pocket money limit to determine the remaining balance and whether spending has exceeded the budget.
 
@@ -144,7 +136,7 @@ Therefore, unless the project source code contains an additional file/database s
 
 A typical session can follow this sequence:
 
-```text
+```
 Start Program
      ↓
 Set Monthly Pocket Money
@@ -198,7 +190,7 @@ The project description specifies that the main `expenses` list stores records i
 
 A typical repository structure is:
 
-```text
+```
 project-root/
 │
 ├── README.md
